@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 import Link from 'next/link';
-import { Card } from '../components/Card';
+import { Card } from 'components/Card';
 import { Alert } from 'components/alert';
 
 export default function ApplyPage() {
