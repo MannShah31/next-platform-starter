@@ -1,8 +1,8 @@
 {
-  "name": "next-netlify-platform-starter",
+  "name": "next-platform-starter",
   "version": "0.1.0",
-  "type": "module",
   "private": true,
+  "type": "module",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -10,7 +10,6 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@netlify/blobs": "^10.5.0",
     "blobshape": "^1.0.0",
     "bright": "^1.0.0",
     "markdown-to-jsx": "^7.7.16",
@@ -28,6 +27,5 @@
     "tailwindcss": "^4.1.15",
     "@types/react": "^18.2.0",
     "@types/node": "^20.11.0"
-
   }
 }
