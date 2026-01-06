@@ -1,11 +1,40 @@
 <html>
     <head></head>
     <body>
-        <form name="feedback" data-netlify="true" hidden>
-            <input type="hidden" name="form-name" value="feedback" />
+        <!-- Contact Form -->
+        <form name="contact" data-netlify="true" hidden>
+            <input type="hidden" name="form-name" value="contact" />
             <input name="name" type="text" />
-            <input name="email" type="text" />
-            <input name="message" type="text" />
+            <input name="email" type="email" />
+            <input name="phone" type="tel" />
+            <input name="subject" type="text" />
+            <textarea name="message"></textarea>
+        </form>
+
+        <!-- Loan Application Form -->
+        <form name="loan-application" data-netlify="true" hidden>
+            <input type="hidden" name="form-name" value="loan-application" />
+            <!-- Loan Details -->
+            <input name="loan-type" type="text" />
+            <input name="loan-amount" type="text" />
+            <input name="loan-tenure" type="text" />
+            <input name="loan-purpose" type="text" />
+            <!-- Business Information -->
+            <input name="business-name" type="text" />
+            <input name="business-type" type="text" />
+            <input name="business-vintage" type="text" />
+            <input name="annual-turnover" type="text" />
+            <input name="gst-number" type="text" />
+            <textarea name="business-address"></textarea>
+            <input name="city" type="text" />
+            <input name="state" type="text" />
+            <!-- Applicant Information -->
+            <input name="applicant-name" type="text" />
+            <input name="designation" type="text" />
+            <input name="email" type="email" />
+            <input name="phone" type="tel" />
+            <input name="pan-number" type="text" />
+            <input name="consent" type="checkbox" />
         </form>
     </body>
 </html>
